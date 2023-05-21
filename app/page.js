@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main>
+    <main className={styles.main}>
       <Image
         className={styles.logo}
         width={600}
@@ -16,8 +16,8 @@ export default function Home() {
       />
       <Image
         className={styles.outline}
-        width={620}
-        height={620}
+        width={600}
+        height={600}
         src="/outline.png"
         alt=""
       />
