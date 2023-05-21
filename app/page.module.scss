@@ -5,6 +5,20 @@
   align-items: center;
   height: 98vh;
   width: 98vw;
+  h1 {
+    position: absolute;
+
+    text-align: center;
+    text-align: end;
+    bottom: 15vh;
+    font-size: 5rem;
+    margin: 0;
+    margin-left: 3rem;
+    padding: 0;
+    background: linear-gradient(45deg, #fdda8e, #ffc66b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 .logo {
   position: absolute;
