@@ -21,7 +21,7 @@ export default function Home() {
         src="/outline.png"
         alt=""
       />
-      <h1>Coming Soon...</h1>
+      <h3>Coming Soon...</h3>
     </main>
   );
 }

@@ -6,7 +6,7 @@
   align-items: center;
   height: 98vh;
   width: 98vw;
-  h1 {
+  h3 {
     text-align: end;
     position: absolute;
     font-size: 5rem;
@@ -36,31 +36,33 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 425px) {
   .main {
-    margin-left: 2rem;
-    h1 {
-      font-size: 2rem;
-      bottom: 20%;
+    h3 {
+      font-size: 1rem;
+      max-height: 1rem;
+      max-width: 50px;
+      left: 6rem;
+      bottom: 23%;
     }
   }
   .outline {
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 350px;
+    max-width: 350px;
   }
   .logo {
-    max-height: 400px;
-    max-width: 400px;
+    max-height: 350px;
+    max-width: 350px;
   }
 }
 @media (max-width: 380px) {
   .main {
-    margin-left: 4rem;
-    h1 {
+    margin-left: 3rem;
+    h3 {
       max-height: 0.8rem;
       font-weight: 400;
-      width: 100%;
       text-align: center;
+      left: 4.5rem;
     }
   }
   .outline {
@@ -74,7 +76,7 @@
 }
 @media (max-width: 1025px) {
   .main {
-    h1 {
+    h3 {
       font-size: 4rem;
       bottom: 20%;
     }
