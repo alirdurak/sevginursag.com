@@ -1,0 +1,19 @@
+.logo {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+}
+.outline {
+  position: absolute;
+  top: 13%;
+  left: 35%;
+  animation: loading 2s linear 0s infinite normal none;
+}
+@keyframes loading {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
