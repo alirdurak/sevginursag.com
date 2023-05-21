@@ -36,10 +36,17 @@
 
 @media (max-width: 425px) {
   .main {
-    margin-left: 6.5rem;
     h1 {
       font-size: 3rem;
       bottom: 20%;
     }
+  }
+  .outline {
+    max-height: 400px;
+    max-width: 400px;
+  }
+  .logo {
+    max-height: 400px;
+    max-width: 400px;
   }
 }
